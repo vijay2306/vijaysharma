@@ -22,9 +22,11 @@ public class amazon_test {
 		String actstr=str.getAttribute("value");
 		if(expstr.equals(actstr)){
 			System.out.println("both string are same");
+			System.out.println("again commited");
 		}
 		else{
 			System.out.println("both string are different");
+			System.out.println("else commited");
 		}
 		
 		
