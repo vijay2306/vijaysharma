@@ -22,7 +22,6 @@ public class amazon_test {
 		String actstr=str.getAttribute("value");
 		if(expstr.equals(actstr)){
 			System.out.println("both string are same");
-			System.out.println("test is pass");
 		}
 		else{
 			System.out.println("both string are different");
